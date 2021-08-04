@@ -1,0 +1,14 @@
+{
+  "name": "server_side_app_express",
+  "version": "1.0.0",
+  "description": "Express practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

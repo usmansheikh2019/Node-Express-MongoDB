@@ -1,0 +1,16 @@
+{
+  "name": "server_side_app_express_dynamic_content",
+  "version": "1.0.0",
+  "description": "Express dynamic content practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.12"
+  }
+}

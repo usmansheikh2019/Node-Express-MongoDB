@@ -1,0 +1,14 @@
+{
+  "name": "api-assignment",
+  "version": "1.0.0",
+  "description": "My API Usage Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usman",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
