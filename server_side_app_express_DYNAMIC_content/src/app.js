@@ -4,8 +4,8 @@ const hbs     = require('hbs');
 const app = express();
 const viewFolderPath = path.join(__dirname,'../templates/views');
 const partialFolder  = path.join(__dirname,'../templates/partials');
-hbs.registerPartials(partialFolder);
-app.set('views',viewFolderPath);
+hbs.registerPartials( partialFolder );
+app.set('views', viewFolderPath);
 app.set('view engine', 'hbs');
 app.get('/',(req,res) =>{
     console.log(req.query);

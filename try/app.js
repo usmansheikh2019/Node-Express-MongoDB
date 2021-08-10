@@ -173,4 +173,46 @@
 //     console.log(`isPresent =`, Boolean(isPresent));
 // }
 
-const request = require('request');
+// console.log('NORMAL WAY');
+// console.log('-----------\n');
+
+// let name1;
+// setTimeout(function() {
+//     name1 = 'usman';
+// }, 1000);
+
+// console.log(name1);
+
+// // Using Promises
+// console.log('The promise way');
+// console.log('---------------\n');
+
+// var name2;
+// const promise = new Promise((resolve,reject)=>{
+
+//     setTimeout( () =>{
+//         name2 = 'usman';
+//         resolve(name2);
+//     }, 1000);
+    
+// })
+// .then( (name2)=>{
+//      console.log('Name: ',name2);
+// })
+// .catch((error)=>{
+//     console.log('Error',error);
+// });
+const loading = document.getElementById('loading');
+let i = 0;
+setInterval(() => {
+    const animation = ['loading','loading.','loading..','loading...'];
+   for ( i ; i < animation.length; i++) {
+       loading.innerHTML = animation[i];
+       break;
+   }
+   i = i + 1;
+   if(i === 4){
+        i = 0;
+   }
+}, 500);
+
